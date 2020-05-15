@@ -1,15 +1,15 @@
 {
-	"name": "optimizedhtml",
-	"version": "5.0.0",
-	"description": "OptimizedHTML 5 - Start HTML Template",
+	"name": "bookmark",
+	"version": "0.0.1",
+	"description": "Bookmark Landing Page",
 	"main": "index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
-	"author": "WebDesign Master",
+	"author": "Thr0TT1e",
 	"license": "ISC",
 	"devDependencies": {
-		"bootstrap": "^4.4.1",
+		"bootstrap": "^4.5.0",
 		"browser-sync": "^2.26.7",
 		"del": "^5.1.0",
 		"gulp": "^4.0.2",
@@ -23,5 +23,9 @@
 		"gulp-sass": "^4.1.0",
 		"gulp-stylus": "^2.7.0",
 		"gulp-uglify-es": "^2.0.0"
+	},
+	"dependencies": {
+		"normalize.css": "^8.0.1",
+		"npm-check-updates": "^6.0.1"
 	}
 }
