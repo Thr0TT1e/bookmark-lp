@@ -1,10 +1,15 @@
 // USER VARIABLES SECTION
 
 $accent: orange // Accent Color
-$fontsize: 16px // Body Font Size
+$fontsize: 18px // Body Font Size
 $textcolor: #333 // Text Color
 $system: -apple-system, BlinkMacSystemFont, Arial, sans-serif // System Font Family
-$roboto: Roboto, sans-serif // Roboto Font Family
+$rubik: Rubik, sans-serif
+
+$colorSoftBlue: hsl(231, 69%, 60%)
+$colorSoftRed: hsl(0, 94%, 66%)
+$colorGrayishBlue: hsl(229, 8%, 60%)
+$colorVeryDarkBlue: hsl(229, 31%, 21%)
 
 // Bootstrap compatible gutter variable => $gutter
 $grid-gutter-width: 20px
@@ -27,10 +32,10 @@ $gutter: $grid-gutter-width
 		// font-display: swap // Uncomment to initially display system fonts
 		src: local($fname), url($furl) format('woff2')
 
-@include font('Roboto', normal, 400, '../fonts/roboto-regular-webfont.woff2')
-@include font('Roboto', italic, 400, '../fonts/roboto-italic-webfont.woff2')
-@include font('Roboto', normal, 700, '../fonts/roboto-bold-webfont.woff2')
-@include font('Roboto', italic, 700, '../fonts/roboto-bolditalic-webfont.woff2')
+@include font('Rubik', italic, 400, '../fonts/rubik-italic.woff2')
+@include font('Rubik', normal, 500, '../fonts/rubik-medium.woff2')
+@include font('Rubik', italic, 500, '../fonts/rubik-mediumitalic.woff2')
+@include font('Rubik', normal, 400, '../fonts/rubik-regular.woff2')
 
 // GENERAL DOCUMENT STYLES
 
@@ -49,9 +54,9 @@ input, textarea
 		border-color: green
 
 body
-	font-family: $roboto
+	font-family: $rubik
 	font-size: $fontsize
-	min-width: 320px
+	min-width: 375px
 	position: relative
 	line-height: 1.65
 	overflow-x: hidden
