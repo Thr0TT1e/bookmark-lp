@@ -1,5 +1,5 @@
 * * *
-Результат работы можно посмотреть тут: <a href="#" target="_blank"> <img src="https://img.shields.io/badge/Site-Noble24.pro-orange?style=for-the-badge" alt="Страница на Noble24.pro"> </a> & <a href="#" target="_blank"> <img src="https://img.shields.io/badge/Site-Nitlify.com-blue?style=for-the-badge" alt="Страница на Netlify.com"> </a> & <a href="#" target="_blank"> <img src="https://img.shields.io/badge/Site-Vercel.com-inactive?style=for-the-badge" alt="Страница на Netlify.com"> </a> 
+Результат работы можно посмотреть тут: <a href="#" target="_blank"> <img src="https://img.shields.io/badge/Site-Noble24.pro-orange?style=for-the-badge" alt="Страница на Noble24.pro"> </a> & <a href="https://bookmark-lp.netlify.app/" target="_blank"> <img src="https://img.shields.io/badge/Site-Nitlify.com-blue?style=for-the-badge" alt="Страница на Netlify.com"> </a> & <a href="#" target="_blank"> <img src="https://img.shields.io/badge/Site-Vercel.com-inactive?style=for-the-badge" alt="Страница на Netlify.com"> </a> 
 * * *
 
 # Frontend Mentor - Bookmark landing page
