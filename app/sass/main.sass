@@ -1,4 +1,18 @@
 @import config
 
-// CUSTOM USER STYLES & IMPORTS
+.general-container
+  max-width: 1440px
+  margin: 0 auto
+  display: grid
 
+header
+  display: grid
+  .general-container
+    .header-block--menu
+      display: grid
+      grid-template-columns: repeat(2, 1fr)
+
+.header-ul--menu
+  display: grid
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr))
+  grid-auto-flow: dense
